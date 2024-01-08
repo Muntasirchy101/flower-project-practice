@@ -1,0 +1,412 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Reusable Component starts here */
+.container {
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.paragraph {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.btn_primary {
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+}
+
+/* Reusable Component ends here  */
+
+/* banner parts starts here  */
+header {
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    gap: 96px;
+}
+
+.banner_content {
+    max-width: 708px;
+}
+
+.banner_content h1 {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    padding-bottom: 32px;
+}
+
+header .btn_primary {
+    margin-top: 32px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.banner_img {
+    margin-top: 50px;
+    /* max-width: 635px; */
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* banner parts ends here  */
+
+
+/* featured section starts here  */
+
+.featured {
+    margin-top: 178px;
+}
+
+.featured_content {
+    max-width: 594px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.featured_content h3 {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+
+}
+
+.featured_img_content {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 48px;
+    align-items: end;
+}
+
+.featured_img_content .flower {}
+
+.featured_img_content .flower p {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    /* 145.833% */
+    text-decoration-line: underline;
+}
+
+.featured_img_content .flower .flower_img {
+    border-radius: 300px 300px 0px 0px;
+    height: 500px;
+    display: flex;
+
+}
+
+.featured_img_content .flower .flower_img img {
+    width: 100%;
+    padding: 30px 20px 0;
+
+}
+
+.pink {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.blue {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(16, 180, 189, 0.15);
+}
+
+.green {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(112, 208, 17, 0.15);
+}
+
+/* featured section ends here  */
+
+
+/* third section starts here  */
+
+.third_section {
+    margin-top: 128px;
+    padding: 175px 86px;
+    border-radius: 8px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 130px;
+}
+
+.img_div .img_box {
+    text-align: center;
+}
+
+.img_div p {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    margin-top: 24px;
+
+}
+
+/* third section ends here  */
+
+
+/* hot deal fourth section starts here  */
+
+.fourth_section {
+    margin-top: 128px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.fourth_content {
+    max-width: 594px;
+    padding: 230px 0;
+
+
+}
+
+.fourth_content h2 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.fourth_content p {
+    padding: 24px 0 32px 0;
+
+}
+
+.fourth_content .btn_primary {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.fourth_img {
+    width: 100%;
+    padding: 100px 0 100px 0;
+
+}
+
+/* hot deal fourth section ends here  */
+
+
+/* instagram fifth section starts here   */
+
+.instagram_section {}
+
+
+.instagram_content {
+    width: 594px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.instagram_content h3 {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.instagram_content p {
+    padding: 24px 0 48px 0;
+}
+
+
+.insta_images {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    padding-top: 48px;
+}
+
+.insta_images img {
+    width: 100%;
+}
+
+/* instagram fifth section ends here  */
+
+/* email sixth section starts here  */
+
+.email_section {
+    margin: 128px 0;
+    padding-bottom: 120px;
+}
+
+.email_bg {
+    background-image: url(../image/Rectangle\ 9.png );
+}
+
+.email_content {}
+
+.email_content h3 {
+    padding-top: 122px;
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.email_content p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 16px 0 71px 0;
+
+}
+
+.input {
+    display: flex;
+    align-items: center;
+}
+
+
+.button {
+    height: 44px;
+    border: none;
+}
+
+.email_box {
+    justify-content: center;
+    display: flex;
+    bottom: -50%;
+    transform: translate(0%, -60%);
+}
+
+#email {
+    width: 700px;
+    height: 64px;
+    background: #FDFCFB;
+    padding: 23px 0;
+    font-family: inherit;
+    color: #737373;
+    letter-spacing: 1px;
+    text-indent: 5%;
+    border-radius: 5px 0 0 5px;
+    margin-right: 15px;
+    text-align: center;
+    align-items: center;
+}
+
+
+#submit {
+    width: 150px;
+    height: 65px;
+    background: #E86C8D;
+    font-family: inherit;
+    font-weight: bold;
+    color: #FFF;
+    letter-spacing: 1px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background .3s ease-in-out;
+}
+
+
+#submit:hover {
+    background: #d45d7d;
+}
+
+
+input:focus {
+    outline: none;
+    outline: 2px solid #E86C8D;
+    box-shadow: 0 0 2px #E86C8D;
+}
+
+/* email sixth section ends here  */
+
+
+/* footer starts here  */
+
+footer {
+    background: #111010;
+    ;
+    padding: 128px 0;
+}
+
+.fourth_content {
+    width: 625px;
+    text-align: center;
+}
+
+.footer_content h2 span {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+
+
+}
+
+.footer_content p {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 32px;
+
+}
+
+.footer_content h2 {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    padding-bottom: 24px;
+
+
+}
+
+.footer_content .copyright {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+/* footer ends here */
